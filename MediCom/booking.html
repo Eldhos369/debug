@@ -1,0 +1,48 @@
+<html>
+<head><title>MediCom</title>
+    <style>
+        /* The container must be positioned relative: */
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h4{
+            font-size: 34px;
+            color: #30336b;
+        }
+        .custom-select {
+        position: relative;
+        font-family: Arial;
+    
+        }
+        #cet,#location,#drname,input{
+            width: 200px;
+        }
+
+    </style>
+</head>
+<body>
+    <h4>Booking</h4><br/>
+    <div align="center" class="custom-select">
+            <select id = "cet" > 
+              <option >Specialist</option>
+              <option value = "2">two</option>
+              <option value = "3">three</option>
+              <option value = "4">four</option>
+            </select><br/><br/>
+            <select id = "location" > 
+                    <option >Location</option>
+                    <option value = "2">two</option>
+                    <option value = "3">three</option>
+                    <option value = "4">four</option>
+            </select><br/><br/>
+            <select id = "drname" > 
+                    <option >Doctor Name</option>
+                    <option value = "2">two</option>
+                    <option value = "3">three</option>
+                    <option value = "4">four</option>
+            </select><br/><br/>
+            <input type="date" name="date" value="date"><br/><br/>
+            <input type="button" name="submit" value="submit">
+    </div>
+</body>
+</html>
